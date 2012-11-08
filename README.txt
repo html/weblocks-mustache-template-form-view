@@ -29,7 +29,7 @@ At this time only this way of usage is guaranteed, other cases not tested.
       )))
 
 Apart from form-title, form-validation-summary, form-view-buttons and others some additional predicates assigned 
-like form-title-supplied-p, form-validation-summary-supplied-p which can be used as mustache predicates, ses following example.
+like form-title-supplied-p, form-validation-summary-supplied-p which can be used as mustache predicates, see following example.
 
 (mustache:defmustache simple-form-view-using-advanced-stuff
  "Some test form {{#form-title-supplied-p}} We have form title and it is {{form-title}} {{/form-title-supplied-p}} {{form-body}}")
