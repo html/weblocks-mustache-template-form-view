@@ -5,6 +5,7 @@
   :description "Mustache-templated weblocks view class"
   :author "Olexiy Zamkoviy <olexiy.z@gmail.com>"
   :license "LLGPL"
+  :version "0.0.1"
   :depends-on (:weblocks :cl-mustache)
   :components ((:file "package")
                (:file "weblocks-mustache-template-form-view")))
